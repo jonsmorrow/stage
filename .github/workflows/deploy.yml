@@ -29,5 +29,4 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world! from stage
 
-      - name: Wait
-        run: sleep 60
+      - uses: jonsmorrow/src/.github/workflows/deploy.yml@main
